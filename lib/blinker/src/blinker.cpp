@@ -3,7 +3,7 @@
 void blink(int t)
 {
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000);
+    delay(t);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(1000);
+    delay(t);
 }
